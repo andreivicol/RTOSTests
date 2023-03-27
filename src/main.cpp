@@ -91,6 +91,7 @@ void setup()
 
 void loop()
 {
+  Serial.println("New firmware");
   otastatus = HttpsOTA.status();
   if (otastatus == HTTPS_OTA_SUCCESS)
   {
@@ -98,7 +99,7 @@ void loop()
   }
   else if (otastatus == HTTPS_OTA_FAIL)
   {
-    Serial.println("Firmware Upgrade Fail");
+    // Serial.println("Firmware Upgrade Fail");
   }
   delay(1000);
 }
