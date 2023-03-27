@@ -6,7 +6,7 @@
 static const char *ssid = "AFTX-2400";         // your network SSID (name of wifi network)
 static const char *password = "123AfT2020"; // your network password
 
-static const char *url = "https://example.com/firmware.bin"; // state url of your firmware image
+static const char *url = "https://github.com/andreivicol/RTOSTests/blob/master/firmwareTest/firmware.bin"; // state url of your firmware image
 
 static const char *server_certificate = "-----BEGIN CERTIFICATE-----\n"
                                         "MIIEkjCCA3qgAwIBAgIQCgFBQgAAAVOFc2oLheynCDANBgkqhkiG9w0BAQsFADA/\n"
